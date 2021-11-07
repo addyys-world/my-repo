@@ -1,0 +1,15 @@
+ git init
+    5  sudo git config --global user.name "ashim=datta"
+    6  sudo git config --global user.email ashim.datta9319@gmail.com
+    7  sudo got config --list
+    8  sudo git config --list
+    9  sudo git remote add origin https://github.com/addyys-world/my-repo.git
+   10  sudo git pull origin master
+   11  ls
+   12  sudo nano docker-command.txt
+   13  cat docker-command.txt
+   14  sudo git add docker-command.txt
+   15  sudo git status
+   16  sudo git commit -m "adding docker txt file"
+   17  ls
+   18  sudo git push origin master
